@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-char string[]  = "and that piece of art is useful\" ";
-char author[]  = "- Dora Korpar, 2015-10-19\n";
+char string[50]  = "and that piece of art is useful\" ";
+char author[50]  = "- Dora Korpar, 2015-10-19\n";
 	fprintf(stderr, "%s", strcat(string, author));
 	return (1);
 }
