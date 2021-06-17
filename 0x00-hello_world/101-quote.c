@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main - prints a string to the standard output
- *Return: 1 
+ *Return:1 
  */
 int main(void)
 {
