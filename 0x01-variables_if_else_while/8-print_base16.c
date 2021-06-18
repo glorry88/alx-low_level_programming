@@ -17,4 +17,5 @@ for (lower = 97; lower < 103; lower++)
 putchar(lower);
 }
 putchar('\n');
+return (0);
 }
