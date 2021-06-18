@@ -1,21 +1,22 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - prints which is greater or lesser
+ * Return: always 0 (success)
+ * betty style doc for function main goes there
+ */
 int main(void)
 {
 int n;
-
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-printf("Last digit of %d is %d", n, n%10); 
-if (n > 5)
+printf("Last digit of %d is %d", n, n % 10);
+if (n % 10 > 5)
 printf("and is greater than 5\n");
-else if (n == 0)
+else if (n % 10  == 0)
 printf("and is 0\n");
-else if (n < 6 && n != 0)
+else if (n % 10 < 6 && n != 0)
 printf("and is less than 6 and not 0\n");
 /* your code goes there */
 return (0);
