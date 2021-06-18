@@ -8,9 +8,11 @@
  */
 int main(void)
 {
-char alpha;
+char alpha, upper;
 for (alpha = 97; alpha <= 122; alpha++)
 putchar(alpha);
+for (upper = 65; upper <= 90; upper++)
+putchar(upper);
 printf("\n");
 return (0);
 }
