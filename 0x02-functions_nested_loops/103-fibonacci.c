@@ -13,7 +13,7 @@ long t1 = 0, t2 = 1;
 long int nextTerm = t1 + t2;
 while (i > 0)
 {
-if ((nextTerm < 4000000))
+if ((nextTerm <= 4000000))
 {
 sum += nextTerm;
 }
