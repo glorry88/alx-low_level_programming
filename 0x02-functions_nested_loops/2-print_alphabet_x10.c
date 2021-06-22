@@ -13,7 +13,7 @@ alpha = 97;
 while (alpha <= 122)
 {
 _putchar(alpha);
-alpha++
+alpha++;
 }
 i++;
 }
