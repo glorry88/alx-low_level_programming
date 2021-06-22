@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * main - using function prototypes
+ * print_alphabet - using function prototypes
  * Return: always 0
  */
 void print_alphabet(void)
