@@ -9,9 +9,11 @@ char alpha;
 int i = 1;
 while(i <= 10)
 {
-for (alpha = 97; alpha <= 122; alpha++)
+alpha = 97;
+while (alpha <= 122)
 {
 _putchar(alpha);
+alpha++
 }
 i++;
 }
