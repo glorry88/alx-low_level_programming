@@ -22,7 +22,7 @@ t2 = nextTerm;
 nextTerm = t1 + t2;
 i--;
 }
-printf("%d", sum);
+printf("%ld", sum);
 printf("\n");
 return (0);
 }
