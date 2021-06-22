@@ -3,7 +3,8 @@
  * main - printing a string using putchar
  * Return: always 0 (success)
  */
-int main(){
+int main(void)
+{
 putchar('H');
 putchar('o');
 putchar('l');
@@ -14,5 +15,5 @@ putchar('t');
 putchar('o');
 putchar('n');
 putchar('\n');
-return 0;
+return (0);
 }
