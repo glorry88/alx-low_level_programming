@@ -7,7 +7,8 @@
  */
 int main(void)
 {
-int i = 50, t1 = 0, t2 = 1;
+int i = 50;
+long t1 = 0, t2 = 1;
 long int nextTerm = t1 + t2;
 while (i > 0)
 {
