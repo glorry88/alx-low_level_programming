@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * print_alphabet - using function prototypes
+ * print_alphabet - using nested loop to print alphabets multiples times
  * Return: always 0
  */
 void print_alphabet(void)
