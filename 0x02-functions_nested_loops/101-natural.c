@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
- * Print the sum of multiples of 3 and 5
- * @sum: Sum of multiples
+ * main - Prints out sum of all multiples of 5 and 3 between 0 and 1024
+ *
+ * putchar - to print "holberton"
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
