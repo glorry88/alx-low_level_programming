@@ -8,10 +8,10 @@
 int main(void)
 {
 int i = 50, t1 = 0, t2 = 1;
-long int nextTerm = t1 + t2;
+long long int nextTerm = t1 + t2;
 while (i > 0)
 {
-printf("%d", nextTerm);
+printf("%lld", nextTerm);
 if (i != 1)
 {
 printf(", ");
