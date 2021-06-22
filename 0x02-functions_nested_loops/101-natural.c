@@ -2,14 +2,15 @@
 
 int main ()
 {
-int sum = 0;
-for(int i = 1; i <= 1024; i++)
+int sum = 0, i = 1024;
+while(i>0)
 {
 if(i%3 == 0 | i%5==0)
 {
 sum += i;
 }
+i--;
 }
-printf("%d", sum)
+printf("%d", sum);
 return 0;
 }
