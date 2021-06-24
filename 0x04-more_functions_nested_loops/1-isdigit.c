@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * int _isdigit(int c) - check for digits 
+ * int _isdigit(int c) - check for digits
  * Returns: 1 if digit and 0 if otherwise
  */
 int _isdigit(int c)
