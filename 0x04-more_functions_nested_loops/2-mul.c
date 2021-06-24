@@ -1,4 +1,4 @@
-#include "holberton"
+#include "holberton.h"
 /**
  * mul - multiplies
  * @a: first number to be checked
