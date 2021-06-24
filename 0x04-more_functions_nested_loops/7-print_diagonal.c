@@ -1,10 +1,10 @@
 #include "holberton.h"
+
 /**
- * print_diagonal - function to print diagonal line
- * Return: diagonal line
- * @n: character to be checked
+ * print_diagonal - draws a diagonal line in the terminal
+ * @n: number of times the character _ should be printed
  */
-void print_diagonal(int n)
+void print_line(int n)
 {
 if (n <= 0)
 {
@@ -17,6 +17,6 @@ for (i = 1; i <= n; i++)
 {
 _putchar('\\');
 }
-}
 _putchar('\n');
+}
 }
