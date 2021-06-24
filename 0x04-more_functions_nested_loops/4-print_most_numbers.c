@@ -1,13 +1,14 @@
 #include "holberton.h"
-/** 
+/**
  * print_most_numbers - prints numbers and skip some
  * Return: 0 always
  */
 void print_most_numbers(void)
 {
 int i;
-for (i = '0'; i <= '9'; i++){
-if ( i == '2' || i == '4')
+for (i = '0'; i <= '9'; i++)
+{
+if (i == '2' || i == '4')
 {
 continue;
 }
