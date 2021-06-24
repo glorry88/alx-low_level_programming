@@ -4,7 +4,7 @@
  * @n: number to be returned
  * Return: integer
  */
-
-void print_number(int n){
-    return (n);
+void print_number(int n)
+{
+return (n);
 }
