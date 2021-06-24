@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *
- *
+ * main - printing fizzbuzz
+ *Return: 0 always
  */
 int main(void)
 {
