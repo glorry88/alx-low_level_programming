@@ -1,6 +1,6 @@
 #include "holberton.h"
 /** 
- * void print_numbers(void) - prints numbers using _putchar
+ * print_numbers - prints numbers using _putchar
  * Return: 0 always
  */
 void print_numbers(void)
