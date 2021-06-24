@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * void print_diagonal - function to print diagonal line
+ * print_diagonal - function to print diagonal line
  * Return: diagonal line
  * @n: character to be checked
  */
