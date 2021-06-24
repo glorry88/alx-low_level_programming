@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * void print_line - function that draws straight line in terminal
+ * print_line - function that draws straight line in terminal
  * Return: straight line
  *@n: number to be checked
  */
