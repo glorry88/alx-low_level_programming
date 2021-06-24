@@ -6,7 +6,6 @@
  */
 void print_diagonal(int n)
 {
-for (j = 0; j <= )
 if (n <= 0)
 {
 _putchar('\n');
