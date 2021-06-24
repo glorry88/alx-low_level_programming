@@ -17,15 +17,15 @@ else if (i % 5 == 0 && i % 3 != 0)
 {
 printf("%s", "Buzz ");
 continue;
-}		
+}
 else if (i % 3 == 0 && i % 5 == 0)
 {
 printf("%s", "FizzBuzz ");
 continue;
-}		
-printf("%d",i);
+}
+printf("%d", i);
 printf(" ");
 }
 putchar('\n');
-return 0;
+return (0);
 }
