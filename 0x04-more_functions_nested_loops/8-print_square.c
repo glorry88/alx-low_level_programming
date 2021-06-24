@@ -1,11 +1,12 @@
 #include "holberton.h"
 /**
  * print_square - function that prints a square
- *
+ * @size: number to be checked
+ * Return: a square
  **/
 void print_square(int size)
 {
-int count, i; 	
+int count, i;
 for (count = 0; count < size; count++)
 {
 for (i = 0; i < size; i++)
