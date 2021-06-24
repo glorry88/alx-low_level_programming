@@ -1,9 +1,10 @@
 #include "holberton"
 /**
- * int mul(int a, int b) - multiplies
- *
+ * mul - multiplies
+ * @a: first number to be checked
+ * @b: second number to be checked
  */
 int mul(int a, int b)
 {
-return ( a * b);
+return (a * b);
 }
