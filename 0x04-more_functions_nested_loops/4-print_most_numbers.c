@@ -1,6 +1,6 @@
-#include "holberton"
+#include "holberton.h"
 /** 
- * void print_most_numbers(void) - prints numbers and skip some
+ * print_most_numbers - prints numbers and skip some
  * Return: 0 always
  */
 void print_most_numbers(void)
