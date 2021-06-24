@@ -10,7 +10,7 @@ if (size <= 0)
 {
 _putchar('\n');
 }
-else 
+else
 {
 int count, i;
 for (count = 0; count < size; count++)
