@@ -1,5 +1,5 @@
 #include "holberton.h"
-/** 
+/**
  * print_numbers - prints numbers using _putchar
  * Return: 0 always
  */
