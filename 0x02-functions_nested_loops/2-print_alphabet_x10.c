@@ -15,7 +15,7 @@ while (alpha <= 122)
 _putchar(alpha);
 alpha++;
 }
+_putchar('\n');
 i++;
 }
-_putchar('\n');
 }
