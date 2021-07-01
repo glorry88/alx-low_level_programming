@@ -8,46 +8,38 @@
  */
 void print_buffer(char *b, int size)
 {
-int i, pi, c;
+int i, j;
 
 if (size <= 0)
 printf("\n");
 else
 {
-for (i = 9, pi = 0; i < size; i += 10)
+for (i = 0; i < size; i += 10)
 {
-printf("%.8x: ", pi);
-for (c = pi; c <= i ; c++)
+printf("%08x: ", i);
+j = 0;
+while (j < 10)
 {
-printf("%.2x", b[c]);
-if (c % 2 == 1)
-printf(" ");	}
-for (c = pi; c <= i ; c++)
+if (j % 2 == 0 && j != 0)
+printf(" ");
+if ((j + i) > size - 1)
 {
-if (b[c] < 32)
-printf(".");
-else
-printf("%c", b[c]);	}
-printf("\n");
-pi = i + 1;	}
-if (pi < size - 1)
-{
-i -= 9;
-printf("%.8x: ", i);
-for (c = i; c < i + 10; c++)
-{
-if (c < size)
-printf("%.2x", b[c]);
-else
 printf("  ");
-if (c % 2 == 1)
-printf(" ");	}
-for (; i < size ; i++)
-{
-if (b[i] < 32)
-printf(".");
+}
 else
-printf("%c", b[i]);
+printf("%.2x", b[i + j]);
+j++;
+}
+printf(" ");
+j = 0;
+while (j < 10)
+{
+if ((j + i) > size - 1)
+break;
+if (b[j + i] <= 31 || b[j + 1] >= '~')
+b[j + i] = '.';
+putchar(b[j + i]);
+j++;
 }
 printf("\n");
 }
