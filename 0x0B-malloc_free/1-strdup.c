@@ -14,7 +14,7 @@ if (str == NULL)
 return (NULL);
 }
 
-for (n == 0; str[n]; n++)
+for (n = 0; str[n]; n++)
 ;
 n++;
 
@@ -25,7 +25,7 @@ if (str2 == NULL)
 return (NULL);
 }
 for (n = 0; str[n] != '\0'; n++)
-str[n] == str2[n];
+str[n] = str2[n];
 
 
 str2[n] = '\0';
