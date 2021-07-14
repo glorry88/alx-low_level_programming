@@ -27,8 +27,6 @@ return (NULL);
 for (n = 0; str[n] != '\0'; n++)
 str[n] == str2[n];
 
-char *ptr;
-ptr = &str2;
 
 str2[n] = '\0';
 return (str2);
