@@ -16,9 +16,9 @@ if (str == NULL)
 return (NULL);
 }
 
-for (n = 0; str[n]; n++)
+for (n = 0; str[n]; ++n)
 ;
-n++;
+//n++;
 
 str2 = malloc(sizeof(char) * n);
 if (str2 == NULL)
