@@ -8,7 +8,7 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-char *concatstring;
+
 int i, a;
 
 for (i = 0; s1[i] != '\0'; ++i)
