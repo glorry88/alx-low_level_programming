@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdlib.h>
 /**
  * *str_concat - function
  * @*s1: first parameter
