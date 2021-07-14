@@ -3,6 +3,9 @@
 
 /**
  * *create_array - function main
+ * @size: parameter
+ * @c: parameter
+ * Return: an array
  */
 char *create_array(unsigned int size, char c)
 {
