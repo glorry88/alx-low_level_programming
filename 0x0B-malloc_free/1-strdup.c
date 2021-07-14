@@ -3,9 +3,9 @@
 
 /**
  * *_strdup - function
- * @*str: parameter to be checked
+ * @str: parameter to be checked
  * Return: a pointer
- */ 
+ */
 char *_strdup(char *str)
 {
 int n;
@@ -26,7 +26,7 @@ if (str2 == NULL)
 return (NULL);
 }
 for (n = 0; str[n] != '\0'; n++)
-str[n] = str2[n];
+str2[n] = str[n];
 
 
 str2[n] = '\0';
