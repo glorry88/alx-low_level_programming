@@ -1,5 +1,9 @@
 #include "holberton.h"
 #include <stdlib.h>
+
+/**
+ * *create_array - function main
+ */
 char *create_array(unsigned int size, char c)
 {
 char *array = malloc(sizeof(char) * size);
