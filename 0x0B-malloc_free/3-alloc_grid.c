@@ -1,4 +1,4 @@
-#include "hoberton.h"
+#include "holberton.h"
 #include <stdlib.h>
 /**
  * **alloc_grid - function to return a pointer to a 
@@ -8,7 +8,7 @@
  * Return: pointer
  */
 
- int **alloc_grid(int width, int height)
+int **alloc_grid(int width, int height)
 {
 int *ptr;
 
