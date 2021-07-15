@@ -14,10 +14,11 @@ char *s;
 
 for (i = 0; s1[i]; i++)
 ;
+i++;
 
 for (a = 0; s2[a]; a++)
 ;
-a++; 
+a++;
 
 s = malloc(sizeof(char) * (a + i));
 
@@ -26,17 +27,17 @@ if (s == NULL)
     return (NULL);
 }
 for (k = 0; k < i; k++)
-	{
-		s[k] = s1[k];
+{
+s[k] = s1[k];
 		
-	}
+}
 
 for (k = 0; k < i + a; k++)
-	{
-		s[k] = s2[k - i];
-	}
+{
+	s[k] = s2[k - i];
+}
 
-	s[k] = '\0';
+s[k] = '\0';
 
 return (s);
 }
