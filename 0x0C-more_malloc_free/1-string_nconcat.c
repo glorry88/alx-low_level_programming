@@ -15,4 +15,5 @@ if (ptr == 0)
 exit(98);
 return (NULL);
 }
+return (p);
 }
