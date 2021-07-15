@@ -10,22 +10,21 @@
 
 int **alloc_grid(int width, int height)
 {
-int *ptr;
+int **ptr;
+int arr[width][height];
+ptr = &arr[width][height];
 
 for (width = 0; arr[width]; width++);
 for (height = 0; arr[height]; height++);
-
-int arr[width][height];
-ptr = &arr[width][height];
 
 if (height == 0 || width == 0 || height < 0 || width < 0)
 {
 return (NULL);
 }
 
-if (ptr == NULL)
+if (*ptr == NULL)
 {
 return (NULL);
 }
-return (ptr);
+return (*ptr);
 }
