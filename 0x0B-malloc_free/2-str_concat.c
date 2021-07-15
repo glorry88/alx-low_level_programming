@@ -12,13 +12,17 @@ char *str_concat(char *s1, char *s2)
 int i, a, k;
 char *s;
 
+if (s1 != NULL){
 for (i = 0; s1[i]; i++)
 ;
 i++;
+}
 
+if (s2 != NULL){
 for (a = 0; s2[a]; a++)
 ;
 a++;
+}
 
 s = malloc(sizeof(char) * (a + i));
 
