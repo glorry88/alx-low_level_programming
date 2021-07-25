@@ -1,4 +1,3 @@
-#ifndef _MACRO_0_
-#define _MACRO_0_
-#define SIZE 1024
+#ifndef SIZE_HEADER
+#define SIZE_HEADER 1024
 #endif
